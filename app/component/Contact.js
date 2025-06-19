@@ -22,7 +22,7 @@ export default function Contact() {
 
           <div className="max-w-md mx-auto bg-gray-600 p-8 rounded-lg shadow-lg">
             <h1 className="text-blue-400 text-3xl font-bold mb-2">Get in Touch</h1>
-            <p className="text-white text-sm mb-4">Give me a chance, I'm ready to work.</p>
+            <p className="text-white text-sm mb-4">Give me a chance, I&apos;m ready to work.</p>
 
             <input
               type="text"

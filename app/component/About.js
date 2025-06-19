@@ -50,7 +50,7 @@ export default function About() {
       <section className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-24 slide-on-scroll opacity-0 translate-y-10 transition-all duration-700">
         {/* Profile Card */}
         <div className="bg-white/10 backdrop-blur-md border border-white/20 shadow-2xl rounded-3xl overflow-hidden w-[300px] h-[380px] hover:scale-105 hover:rotate-1 transition-transform duration-500">
-          <img
+          <Image
             src="https://cdn.pixabay.com/photo/2023/06/29/01/09/portrait-8095464_1280.jpg"
             alt="profile_pic"
             className="w-full h-full object-cover rounded-3xl"
@@ -65,7 +65,7 @@ export default function About() {
             About Me ✨
           </h1>
           <p className="text-lg leading-relaxed text-gray-300 mb-4">
-            Hello! I'm <span className="text-indigo-400 font-medium">Vijayavarman</span>, a passionate and detail-oriented Computer Science student with hands-on experience in web development and project-based learning. I enjoy turning ideas into interactive digital experiences.
+            Hello! I&apos;m <span className="text-indigo-400 font-medium">Vijayavarman</span>, a passionate and detail-oriented Computer Science student with hands-on experience in web development and project-based learning. I enjoy turning ideas into interactive digital experiences.
           </p>
           <p className="text-lg leading-relaxed text-gray-300 mb-4">
             Skilled in <span className="text-yellow-300">HTML</span>, <span className="text-green-300">CSS</span>, <span className="text-pink-300">JavaScript</span>, and <span className="text-red-300">Java</span>, with a strong interest in building real-world applications.

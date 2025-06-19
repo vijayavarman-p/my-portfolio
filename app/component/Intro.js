@@ -72,7 +72,7 @@ export default function Intro() {
 </p>
 
                 <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight mb-4">
-                    I'M <span className="text-indigo-500 ">VIJAYAVARMAN</span>
+                    I&apos;M <span className="text-indigo-500 ">VIJAYAVARMAN</span>
                 </h1>
                 <WordRotate
                     words={[

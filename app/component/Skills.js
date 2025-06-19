@@ -20,50 +20,50 @@ export default function Skills() {
             <h2 className="text-4xl font-bold mb-12 text-center">My Skills</h2>
 
             <div className="flex justify-center items-center gap-10 mb-12">
-                <div class="relative max-w-[500px] w-full bg-[#ececec] mx-4 p-5 rounded-md">
-                    <div class="w-full my-6">
-                        <span class="block text-sm font-semibold text-gray-800">HTML</span>
-                        <div class="h-2 w-full rounded-md mt-1 bg-black/10">
-                        <div class="relative h-full rounded-md bg-blue-600 animate-progress html">
-                            <span class="absolute -top-7 -right-3 text-[9px] font-medium text-white bg-blue-600 px-1.5 py-[2px] rounded-sm z-10">
+                <div className="relative max-w-[500px] w-full bg-[#ececec] mx-4 p-5 rounded-md">
+                    <div className="w-full my-6">
+                        <span className="block text-sm font-semibold text-gray-800">HTML</span>
+                        <div className="h-2 w-full rounded-md mt-1 bg-black/10">
+                        <div className="relative h-full rounded-md bg-blue-600 animate-progress html">
+                            <span className="absolute -top-7 -right-3 text-[9px] font-medium text-white bg-blue-600 px-1.5 py-[2px] rounded-sm z-10">
                             50%
-                            <span class="absolute left-1/2 -bottom-0.5 w-2.5 h-2.5 bg-blue-600 rotate-45 -z-5 transform -translate-x-1/2"></span>
+                            <span className="absolute left-1/2 -bottom-0.5 w-2.5 h-2.5 bg-blue-600 rotate-45 -z-5 transform -translate-x-1/2"></span>
                             </span>
                         </div>
                         </div>
                     </div>
 
-                    <div class="w-full my-6">
-                        <span class="block text-sm font-semibold text-gray-800">CSS</span>
-                        <div class="h-2 w-full rounded-md mt-1 bg-black/10">
-                        <div class="relative h-full rounded-md bg-blue-600 animate-progress css">
-                            <span class="absolute -top-7 -right-3 text-[9px] font-medium text-white bg-blue-600 px-1.5 py-[2px] rounded-sm z-10">
+                    <div className="w-full my-6">
+                        <span className="block text-sm font-semibold text-gray-800">CSS</span>
+                        <div className="h-2 w-full rounded-md mt-1 bg-black/10">
+                        <div className="relative h-full rounded-md bg-blue-600 animate-progress css">
+                            <span className="absolute -top-7 -right-3 text-[9px] font-medium text-white bg-blue-600 px-1.5 py-[2px] rounded-sm z-10">
                             70%
-                            <span class="absolute left-1/2 -bottom-0.5 w-2.5 h-2.5 bg-blue-600 rotate-45 -z-5 transform -translate-x-1/2"></span>
+                            <span className="absolute left-1/2 -bottom-0.5 w-2.5 h-2.5 bg-blue-600 rotate-45 -z-5 transform -translate-x-1/2"></span>
                             </span>
                         </div>
                         </div>
                     </div>
 
-                    <div class="w-full my-6">
-                        <span class="block text-sm font-semibold text-gray-800">JavaScript</span>
-                        <div class="h-2 w-full rounded-md mt-1 bg-black/10">
-                        <div class="relative h-full rounded-md bg-blue-600 animate-progress javascript">
-                            <span class="absolute -top-7 -right-3 text-[9px] font-medium text-white bg-blue-600 px-1.5 py-[2px] rounded-sm z-10">
+                    <div className="w-full my-6">
+                        <span className="block text-sm font-semibold text-gray-800">JavaScript</span>
+                        <div className="h-2 w-full rounded-md mt-1 bg-black/10">
+                        <div className="relative h-full rounded-md bg-blue-600 animate-progress javascript">
+                            <span className="absolute -top-7 -right-3 text-[9px] font-medium text-white bg-blue-600 px-1.5 py-[2px] rounded-sm z-10">
                             50%
-                            <span class="absolute left-1/2 -bottom-0.5 w-2.5 h-2.5 bg-blue-600 rotate-45 -z-5 transform -translate-x-1/2"></span>
+                            <span className="absolute left-1/2 -bottom-0.5 w-2.5 h-2.5 bg-blue-600 rotate-45 -z-5 transform -translate-x-1/2"></span>
                             </span>
                         </div>
                         </div>
                     </div>
 
-                    <div class="w-full my-6">
-                        <span class="block text-sm font-semibold text-gray-800">NodeJS</span>
-                        <div class="h-2 w-full rounded-md mt-1 bg-black/10">
-                            <div class="relative h-full rounded-md bg-blue-600 animate-progress nodejs">
-                                <span class="absolute -top-7 -right-3 text-[11px] font-medium text-white bg-blue-600 px-1.5 py-[2px] rounded-sm z-10">
+                    <div className="w-full my-6">
+                        <span className="block text-sm font-semibold text-gray-800">NodeJS</span>
+                        <div className="h-2 w-full rounded-md mt-1 bg-black/10">
+                            <div className="relative h-full rounded-md bg-blue-600 animate-progress nodejs">
+                                <span className="absolute -top-7 -right-3 text-[11px] font-medium text-white bg-blue-600 px-1.5 py-[2px] rounded-sm z-10">
                                 38%
-                                <span class="absolute left-1/2 -bottom-0.5 w-2.5 h-2.5 bg-blue-600 rotate-45 -z-5 transform -translate-x-1/2"></span>
+                                <span className="absolute left-1/2 -bottom-0.5 w-2.5 h-2.5 bg-blue-600 rotate-45 -z-5 transform -translate-x-1/2"></span>
                                 </span>
                             </div>
                         </div>

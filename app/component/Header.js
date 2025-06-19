@@ -27,13 +27,13 @@ export default function Header(){
     return (
         <header id='header' className="bg-gray-800 text-white  flex  items-center px-2 py-2 m-0">
         
-        <button class="portfolio-button group relative cursor-pointer bg-transparent p-0 border-none">
-  <span class="actual-text text-transparent uppercase text-[2em] font-sans stroke-text drop-shadow-md">
+        <button className="portfolio-button group relative cursor-pointer bg-transparent p-0 border-none">
+  <span className="actual-text text-transparent uppercase text-[2em] font-sans stroke-text drop-shadow-md">
     &nbsp;Portfolio&nbsp;
   </span>
   <span
     aria-hidden="true"
-    class="hover-text pointer-events-none absolute inset-0 w-0 overflow-hidden border-r-[6px] border-indigo-500 text-[2em] uppercase text-indigo-500 text-shadow-indigo-800 transition-all duration-500 group-hover:w-full font-sans stroke-text drop-shadow-[0_4px_6px_rgba(99,102,241,0.5)]"
+    className="hover-text pointer-events-none absolute inset-0 w-0 overflow-hidden border-r-[6px] border-indigo-500 text-[2em] uppercase text-indigo-500 text-shadow-indigo-800 transition-all duration-500 group-hover:w-full font-sans stroke-text drop-shadow-[0_4px_6px_rgba(99,102,241,0.5)]"
   >
     &nbsp;Portfolio&nbsp;
   </span>
@@ -41,35 +41,35 @@ export default function Header(){
 
 
         <nav className="mt-2 flex justify-center w-full">
-            <div class="flex w-[600px] h-[40px] items-center justify-around rounded-[10px] bg-[#004990] shadow-[0_5px_15px_rgba(0,0,0,0.35),5px_10px_15px_rgba(0,73,144,0.5)] transition-all duration-500 ">
-            <button class="w-20 h-10 flex items-center justify-center rounded-full bg-transparent text-white text-sm font-semibold transition-all duration-300 hover:-translate-y-[3px]">
+            <div className="flex w-[600px] h-[40px] items-center justify-around rounded-[10px] bg-[#004990] shadow-[0_5px_15px_rgba(0,0,0,0.35),5px_10px_15px_rgba(0,73,144,0.5)] transition-all duration-500 ">
+            <button className="w-20 h-10 flex items-center justify-center rounded-full bg-transparent text-white text-sm font-semibold transition-all duration-300 hover:-translate-y-[3px]">
                 <a href="#intro">Home</a>
             </button>
-            <button class="w-20 h-10 flex items-center justify-center rounded-full bg-transparent text-white text-sm font-semibold transition-all duration-300 hover:-translate-y-[3px]">
+            <button className="w-20 h-10 flex items-center justify-center rounded-full bg-transparent text-white text-sm font-semibold transition-all duration-300 hover:-translate-y-[3px]">
                 <a href="#about">About</a>
             </button>
-            <button class="w-20 h-10 flex items-center justify-center rounded-full bg-transparent text-white text-sm font-semibold transition-all duration-300 hover:-translate-y-[3px]">
+            <button className="w-20 h-10 flex items-center justify-center rounded-full bg-transparent text-white text-sm font-semibold transition-all duration-300 hover:-translate-y-[3px]">
                 <a href="#skills">Skills</a>
             </button>
-            <button class="w-20 h-10 flex items-center justify-center rounded-full bg-transparent text-white text-sm font-semibold transition-all duration-300 hover:-translate-y-[3px]">
+            <button className="w-20 h-10 flex items-center justify-center rounded-full bg-transparent text-white text-sm font-semibold transition-all duration-300 hover:-translate-y-[3px]">
                 <a href="#projects">Projects</a>
             </button>
-            <button class="w-20 h-10 flex items-center justify-center rounded-full bg-transparent text-white text-sm font-semibold transition-all duration-300 hover:-translate-y-[3px]">
+            <button className="w-20 h-10 flex items-center justify-center rounded-full bg-transparent text-white text-sm font-semibold transition-all duration-300 hover:-translate-y-[3px]">
                 <a href="#contact">Contacts</a>
             </button>
             </div>
 
         </nav>
 
-        <div class="flex justify-around items-center mt-4">
+        <div className="flex justify-around items-center mt-4">
             <a href="https://wa.me/919787378840" target="_blank" rel="noopener noreferrer">
-                <button class="relative w-[6.2em] h-[2.2em] text-[17px] rounded-[0.8em] border-indigo-400  bg-indigo-800 transition-all duration-500 hover:bg-[#25D366] group overflow-hidden mx-2">
-            <p class="absolute top-[0.4em] left-[1.15em] m-0 p-0 text-white transition-all duration-500 group-hover:left-[0.5em] group-hover:text-white">
+                <button className="relative w-[6.2em] h-[2.2em] text-[17px] rounded-[0.8em] border-indigo-400  bg-indigo-800 transition-all duration-500 hover:bg-[#25D366] group overflow-hidden mx-2">
+            <p className="absolute top-[0.4em] left-[1.15em] m-0 p-0 text-white transition-all duration-500 group-hover:left-[0.5em] group-hover:text-white">
                 Text me
             </p>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                 viewBox="0 0 16 16"
-                class="absolute top-[0.45em] right-[0.5em] m-0 p-0 opacity-0 transition-opacity duration-500 fill-white group-hover:opacity-100"
+                className="absolute top-[0.45em] right-[0.5em] m-0 p-0 opacity-0 transition-opacity duration-500 fill-white group-hover:opacity-100"
             >
                 <path
                 d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z">
