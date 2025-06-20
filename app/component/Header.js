@@ -29,12 +29,12 @@ export default function Header(){
         <header id='header' className="bg-gray-800 text-white  flex  items-center px-2 py-2 m-0">
         
         <button className="portfolio-button group relative cursor-pointer bg-transparent p-0 border-none">
-  <span className="actual-text text-transparent uppercase text-[2em] font-sans stroke-text drop-shadow-md">
+  <span className="actual-text text-transparent uppercase text-[2em] font-sans stroke-text drop-shadow-md  text-shadow-indigo-800 border-indigo-500">
     &nbsp;Portfolio&nbsp;
   </span>
   <span
     aria-hidden="true"
-    className="hover-text pointer-events-none absolute inset-0 w-0 overflow-hidden border-r-[6px] border-indigo-500 text-[2em] uppercase text-indigo-500 text-shadow-indigo-800 transition-all duration-500 group-hover:w-full font-sans stroke-text drop-shadow-[0_4px_6px_rgba(99,102,241,0.5)]"
+    className="hover-text pointer-events-none absolute inset-0 w-0 overflow-hidden border-r-[6px] border-indigo-500 text-[2em] uppercase text-indigo-500 text-shadow-indigo-800 transition-all duration-500 group-hover:text-shadow-indigo-800 group-hover:w-full  font-sans stroke-text drop-shadow-[0_4px_6px_rgba(99,102,241,0.5)]"
   >
     &nbsp;Portfolio&nbsp;
   </span>

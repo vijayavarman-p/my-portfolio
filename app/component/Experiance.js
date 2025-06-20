@@ -50,10 +50,30 @@ export default function Experience() {
             </section>
             <hr className="w-1 h-150 bg-gray-700 mr-15"/>
             <section className="py-10 flex ">
-                <BlurFade className={"flex flex-wrap"} >
-                    <Image src="https://cdn.pixabay.com/photo/2015/01/08/18/24/programming-593312_1280.jpg" alt="Sample 1" width={85} className="8px-4 rounded-2xl  transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg " />
-                    <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1uPOiymiz06sFd0b6uU1tHCnLUf8aKP27Hw&s" width={90} alt="Sample 3" className=" rounded-3xl px-6 transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg" />
-                    <Image src="https://cdn.pixabay.com/photo/2017/07/31/14/45/code-2558220_1280.jpg" alt="Sample 2" width={97} className=" px-6  mt-5 rounded-3xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg" />
+                <BlurFade className={"flex flex-col"} >
+                    {/* <Image 
+                        src="/expe-pic1.jpg" 
+                        alt="Sample 1" 
+                        width={400} 
+                        height={400}
+                        className="px-4 rounded-2xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg" 
+                        /> */}
+
+                        <Image 
+                        src="/expe-pic2.jpeg" 
+                        alt="Sample 2" 
+                        width={600} 
+                        height={600}
+                        className="rounded-4xl px-6 transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg" 
+                        />
+
+                        <Image 
+                        src="/expe-pic3.jpg" 
+                        alt="Sample 3" 
+                        width={480} 
+                        height={300}
+                        className="px-6 mt-5 rounded-4xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg" 
+                        />
                     {/* <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4wQ2C1Jrnt1BOMJ6Z6DW8cczaVCOiQ7Ykkw&s" alt="Sample 2" className="w-97 mt-5  px-6  rounded-3xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg" /> */}
                 </BlurFade>
             </section> 

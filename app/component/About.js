@@ -1,7 +1,6 @@
 "use client"; // if you're using this in `app/` directory
-import Image from 'next/image';
-
 import { useEffect } from "react";
+import Image from "next/image";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 export default function About() {
@@ -52,11 +51,15 @@ export default function About() {
       <section className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-24 slide-on-scroll opacity-0 translate-y-10 transition-all duration-700">
         {/* Profile Card */}
         <div className="bg-white/10 backdrop-blur-md border border-white/20 shadow-2xl rounded-3xl overflow-hidden w-[300px] h-[380px] hover:scale-105 hover:rotate-1 transition-transform duration-500">
-          <Image
-            src="https://cdn.pixabay.com/photo/2023/06/29/01/09/portrait-8095464_1280.jpg"
-            alt="profile_pic"
-            className="w-full h-full object-cover rounded-3xl"
-          />
+          {/* <div className="relative w-full h-64 rounded-3xl overflow-hidden"> */}
+            <Image
+              src="/about-pic.jpg"
+              alt="profile_pic"
+              width={300}
+              height={380}
+              className="w-full h-full object-cover rounded-3xl"
+            />
+          {/* </div> */}
         </div>
 
         <div className="hidden lg:block w-[2px] h-[300px] bg-indigo-500"></div>

@@ -22,13 +22,13 @@ export default function Projects(){
 
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
     {/* Project Card 1*/}
-    <div className="relative group w-[280px] h-[320px] mx-auto rounded-xl overflow-hidden bg-gradient-to-br from-gray-900 to-gray-900 text-black font-bold text-xl transition-all duration-500 transform hover:scale-105 shadow-xl">
+    <div className="relative group w-[280px] h-[320px] mx-auto rounded-xl overflow-hidden  text-black font-bold text-xl transition-all duration-500 transform hover:scale-105 shadow-xl">
       {/* First Content (front view) */}
       <BorderBeam />
       <div className="absolute inset-0 flex items-center justify-center transition-all duration-500 group-hover:opacity-0 group-hover:h-0">
         <div className="text-center">
           <Image
-            src="https://media.istockphoto.com/id/942682414/photo/businessman-working-in-office-with-using-calculator-and-laptop-concept-finance-and-accounting.jpg?s=612x612&w=0&k=20&c=HGBNg6WJ166u8IF8OO7xUYSqGgaxyfiuNRUyd5XabWo="
+            src="/invest1.jpg"
             alt="Project 1"
             fill
             className="absolute inset-0  object-cover transition-opacity duration-500 group-hover:opacity-30"
@@ -42,7 +42,7 @@ export default function Projects(){
       {/* Second Content (back view) */}
       <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:rotate-0 rotate-90 scale-0 group-hover:scale-100 px-4 text-center bg-gray-700/70 text-white">
         <Image
-          src="https://media.istockphoto.com/id/1367899893/photo/multi-racial-diverse-group-of-people-working-with-paperwork-on-a-board-room-table-at-a.jpg?s=612x612&w=0&k=20&c=2t0t2NfFIpuggzGw54kqtYanxj3f7if1CVjnPh5YRCc="
+          src="/invest2.jpg"
           alt="Project UI"
           fill
           className="absolute inset-0  object-cover transition-opacity duration-500 group-hover:opacity-30"
@@ -61,7 +61,7 @@ export default function Projects(){
       <div className="absolute inset-0 flex items-center justify-center transition-all duration-500 group-hover:opacity-0 group-hover:h-0">
         <div className="text-center">
           <Image
-            src="https://media.istockphoto.com/id/1170262672/photo/nutritional-information-concept-hand-use-the-magnifying-glass-to-zoom-in-to-see-the-details.jpg?s=612x612&w=0&k=20&c=RncEH-T_nhYklMRAAXUWmeaQPdmbRxqwBfybnVwt_Pw="
+            src="/food1.jpg"
             alt="Project 1"
             fill
             className="absolute inset-0  object-cover transition-opacity duration-500 group-hover:opacity-30"
@@ -74,7 +74,7 @@ export default function Projects(){
       {/* Second Content (back view) */}
       <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:rotate-0 rotate-90 scale-0 group-hover:scale-100 px-4 text-center bg-gray-700/70 text-white">
         <Image
-          src="https://media.istockphoto.com/id/1215095583/photo/woman-using-dieting-app-on-phone.jpg?s=612x612&w=0&k=20&c=OM9J1HGwwp1t5iIA9KGVyzEYYiKC4UrjiKlH4MVjRm8="
+          src="/food2.jpg"
           alt="Project UI"
           fill
           className="absolute inset-0  object-cover transition-opacity duration-500 group-hover:opacity-30"
@@ -93,7 +93,7 @@ export default function Projects(){
       <div className="absolute inset-0 flex items-center justify-center transition-all duration-500 group-hover:opacity-0 group-hover:h-0">
         <div className="text-center">
           <Image
-            src="https://cdn.pixabay.com/photo/2022/01/28/12/17/distance-learning-6974511_1280.jpg"
+            src="/course1.jpg"
             alt="Project 1"
             fill
             className="absolute inset-0  object-cover transition-opacity duration-500 group-hover:opacity-30"
@@ -106,7 +106,7 @@ export default function Projects(){
       {/* Second Content (back view) */}
       <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:rotate-0 rotate-90 scale-0 group-hover:scale-100 px-4 text-center bg-gray-700/70 text-white">
         <Image
-          src="https://media.istockphoto.com/id/2164007541/photo/e-learning-education-concept-of-online-education-e-learning-education-concept-learning-online.jpg?s=612x612&w=0&k=20&c=koP2NSsBT3XZbUDFEQHRxSiIOW5ktwzlpoRSzYk1E4g="
+          src="/course2.jpg"
           alt="Project UI"
           fill
           className="absolute inset-0  object-cover transition-opacity duration-500 group-hover:opacity-30"
@@ -125,7 +125,7 @@ export default function Projects(){
       <div className="absolute inset-0 flex items-center justify-center transition-all duration-500 group-hover:opacity-0 group-hover:h-0">
         <div className="text-center">
           <Image
-            src="https://cdn.pixabay.com/photo/2021/01/24/23/13/man-5946820_1280.jpg"
+            src="/face2.jpg"
             alt="Project 1"
             fill
             className="absolute inset-0  object-cover transition-opacity duration-500 group-hover:opacity-30"
@@ -138,7 +138,7 @@ export default function Projects(){
       {/* Second Content (back view) */}
       <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:rotate-0 rotate-90 scale-0 group-hover:scale-100 px-4 text-center bg-gray-700/70 text-white">
         <Image
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThtkwpsoHxx1sJ33-MNnJYA8pEN3pyzQna546dj758DmiztHM1wJN2F79UyQP2jM1TcFY&usqp=CAU"
+          src="/face1.jpeg"
           alt="Project UI"
           fill
           className="absolute inset-0  object-cover transition-opacity duration-500 group-hover:opacity-30"
@@ -157,7 +157,7 @@ export default function Projects(){
       <div className="absolute inset-0 flex items-center justify-center transition-all duration-500 group-hover:opacity-0 group-hover:h-0">
         <div className="text-center">
           <Image
-            src="https://cdn.pixabay.com/photo/2020/09/21/11/41/bus-5589826_1280.jpg"
+            src="/bus1.jpg"
             alt="Project 1"
             fill
             className="absolute inset-0  object-cover transition-opacity duration-500 group-hover:opacity-30"
@@ -170,7 +170,7 @@ export default function Projects(){
       {/* Second Content (back view) */}
       <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:rotate-0 rotate-90 scale-0 group-hover:scale-100 px-4 text-center bg-gray-700/70 text-white">
         <Image
-          src="https://cdn.pixabay.com/photo/2019/09/30/15/41/holidays-4516107_1280.jpg"
+          src="/bus2.jpg"
           alt="Project UI"
           fill
           className="absolute inset-0  object-cover transition-opacity duration-500 group-hover:opacity-30"
