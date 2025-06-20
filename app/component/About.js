@@ -54,7 +54,7 @@ export default function About() {
           {/* <div className="relative w-full h-64 rounded-3xl overflow-hidden"> */}
             <Image
               src="/about-pic.jpg"
-              alt="profile_pic"
+              alt="profile-pic"
               width={300}
               height={380}
               className="w-full h-full object-cover rounded-3xl"
