@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html className="scroll-smooth" lang="en">
       <head>
-        <title>Vijay's Portfolio</title>
+        <title>Vijay&apos;s Portfolio</title>
         <meta name="description" content="Vijay's Personal Portfolio" />
 
         {/* ✅ Font Awesome CDN Link */}

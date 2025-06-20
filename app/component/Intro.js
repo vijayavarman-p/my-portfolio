@@ -1,5 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
+import Image from 'next/image';
+
 import Script from "next/script";
 import { WordRotate } from "@/components/magicui/word-rotate";
 import AOS from 'aos';

@@ -1,5 +1,6 @@
 'use client';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import Image from 'next/image';
 
 
 import { useEffect } from 'react';

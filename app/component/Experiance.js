@@ -1,5 +1,6 @@
 'use client';
 import { BlurFade } from "@/components/magicui/blur-fade";
+import Image from 'next/image';
 
 
 import { useEffect } from 'react';

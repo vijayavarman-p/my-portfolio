@@ -1,5 +1,6 @@
 'use client';
 import { Marquee } from "@/components/magicui/marquee";
+import Image from 'next/image';
 
 
 import { useEffect } from 'react';

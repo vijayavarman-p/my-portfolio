@@ -1,4 +1,6 @@
 "use client"; // if you're using this in `app/` directory
+import Image from 'next/image';
+
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
